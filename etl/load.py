@@ -5,7 +5,7 @@ from pathlib import Path
 
 @task()
 def load_to_database():
-    """Task to load data to SQLite database."""
+    """Task to load data to a SQLite database."""
     transformed_folder = Path("staging/transformed")
 
     # Initialize SQLiteHook
